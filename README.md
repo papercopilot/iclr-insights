@@ -9,7 +9,14 @@ This is the repository for the paper: [https://arxiv.org/pdf/2511.15462](https:/
 
 ## Data
 
-We use all the data we captured for ICLR 2024 and 2025 from [./dataset](./dataset/). Some reviewers changed their scores multiple times during the review process. Initially, we did not capture individual reviewer identities in daily snapshots; however, their scores (rating, confidence, presentation, and more) are more than enough to reconstruct reviewer profiles. We mark reviewers that we are confident about with a Tracing Score.
+
+We use all the data we collected for ICLR 2024 and 2025 from [./dataset](./dataset/).
+The IDs are OpenReview IDs: [https://openreview.net/forum?id=put_your_id_here](https://openreview.net/forum?id=put_your_id_here).
+The reviewer IDs correspond to that paper only.
+The score before the ";" is the initial score submitted, and the score after the ";" is the score after the rebuttal.
+
+
+Some reviewers changed their scores multiple times during the review process. Initially, we did not capture individual reviewer identities in daily snapshots; however, their scores (rating, confidence, presentation, and more) are more than enough to reconstruct reviewer profiles. We mark reviewers that we are confident about with a Tracing Score.
 
 Tracing Score is the metric we use to track reviewer continuity over time:
 
