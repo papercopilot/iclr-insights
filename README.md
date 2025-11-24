@@ -22,3 +22,20 @@ Score interpretation:
 * 0: Reviewer profile (excluding overall rating) remained unchanged across days.
 * 1: Minor differences accumulated, but still a reliable match.
 * ≥ 2: Multiple differences in the review profile across days. This only affects a small portion of the dataset. Please double-check before using them.
+
+
+License: We share the ICLR 2024 and 2025 score changes we obtained—which can no longer be accessed through standard means—under the same OpenReview license, CC BY 4.0.
+
+
+## Citation
+
+If you find our code, or data useful for your research, please cite our work:
+
+```
+@article{kargaran2025insights,
+  title={Insights from the ICLR Peer Review and Rebuttal Process},
+  author={Kargaran, Amir Hossein and Nikeghbal, Nafiseh and Yang, Jing and Ousidhoum, Nedjma},
+  journal={arXiv preprint arXiv:2511.15462},
+  year={2025}
+}
+```
