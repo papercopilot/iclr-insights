@@ -1,0 +1,51 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Byte-compiled / optimization / DLL files
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+coverage.xml
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Environment / secrets
+.env
+*.env
+.env.*
+
